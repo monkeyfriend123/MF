@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A8235C6E-E1B0-46C2-A661-DBCB59B25177</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MFStudy</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>67BA6F7C-DCD8-4088-B757-F3D047288FDC</key>
+		<string>https://github.com/monkeyfriend123/IOS-GitHubRep</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>code/MFStudy/MFStudy.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>67BA6F7C-DCD8-4088-B757-F3D047288FDC</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/monkeyfriend123/IOS-GitHubRep</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>67BA6F7C-DCD8-4088-B757-F3D047288FDC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>67BA6F7C-DCD8-4088-B757-F3D047288FDC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Git</string>
+		</dict>
+	</array>
+</dict>
+</plist>
