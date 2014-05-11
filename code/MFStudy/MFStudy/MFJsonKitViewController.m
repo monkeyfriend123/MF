@@ -9,6 +9,7 @@
 #import "MFJsonKitViewController.h"
 #import "JSONKit.h"
 #import "MFEmployee.h"
+#import "NSString+MD5.h"
 @interface MFJsonKitViewController ()
 
 @end
@@ -52,6 +53,9 @@
     }
     
     
+    /* md5 */
+    NSString *originString = @"Monkey";
+    NSLog(@"md5 : %@",[originString md5] );
     
 }
 

@@ -11,6 +11,7 @@
 		4B14B3D4191F5B99003C1F4E /* MFJsonKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B14B3D2191F5B99003C1F4E /* MFJsonKitViewController.m */; };
 		4B14B3D5191F5B99003C1F4E /* MFJsonKitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B14B3D3191F5B99003C1F4E /* MFJsonKitViewController.xib */; };
 		4B14B3D8191F60BB003C1F4E /* MFEmployee.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B14B3D7191F60BB003C1F4E /* MFEmployee.m */; };
+		4B14B3DB191F66B3003C1F4E /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B14B3DA191F66B3003C1F4E /* NSString+MD5.m */; };
 		4BB8020C191F00F000662F2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BB8020B191F00F000662F2D /* Foundation.framework */; };
 		4BB8020E191F00F000662F2D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BB8020D191F00F000662F2D /* CoreGraphics.framework */; };
 		4BB80210191F00F000662F2D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BB8020F191F00F000662F2D /* UIKit.framework */; };
@@ -57,6 +58,8 @@
 		4B14B3D3191F5B99003C1F4E /* MFJsonKitViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MFJsonKitViewController.xib; sourceTree = "<group>"; };
 		4B14B3D6191F60BB003C1F4E /* MFEmployee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFEmployee.h; sourceTree = "<group>"; };
 		4B14B3D7191F60BB003C1F4E /* MFEmployee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFEmployee.m; sourceTree = "<group>"; };
+		4B14B3D9191F66B3003C1F4E /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		4B14B3DA191F66B3003C1F4E /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
 		4BB80208191F00F000662F2D /* MFStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MFStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BB8020B191F00F000662F2D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4BB8020D191F00F000662F2D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -221,6 +224,8 @@
 			children = (
 				4BB80244191F04A000662F2D /* MFSystemInfo.h */,
 				4BB80245191F04A000662F2D /* MFSystemInfo.m */,
+				4B14B3D9191F66B3003C1F4E /* NSString+MD5.h */,
+				4B14B3DA191F66B3003C1F4E /* NSString+MD5.m */,
 			);
 			name = Tool;
 			sourceTree = "<group>";
@@ -417,6 +422,7 @@
 				4BB80222191F00F000662F2D /* MFListViewController.m in Sources */,
 				4BB80225191F00F000662F2D /* MFAboutViewController.m in Sources */,
 				4BB8026B191F359B00662F2D /* FMDatabase+InMemoryOnDiskIO.m in Sources */,
+				4B14B3DB191F66B3003C1F4E /* NSString+MD5.m in Sources */,
 				4BB8025C191F2F9700662F2D /* MFDatabaseManager.m in Sources */,
 				4B14B3D4191F5B99003C1F4E /* MFJsonKitViewController.m in Sources */,
 				4BB8026D191F359B00662F2D /* FMDatabaseAdditions.m in Sources */,
