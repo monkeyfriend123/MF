@@ -28,6 +28,9 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    self.title = @"JSONKit";
+    
     NSMutableArray *array = [NSMutableArray array];
     for (int i = 0; i < 10; i++) {
         MFEmployee *employee = [[MFEmployee alloc] init];
