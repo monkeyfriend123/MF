@@ -9,7 +9,8 @@
 #import "MFAboutViewController.h"
 
 @interface MFAboutViewController ()
-
+/* 显示版本值 */
+@property (nonatomic, weak) IBOutlet UILabel *softwareVersionLabel;
 @end
 
 @implementation MFAboutViewController
@@ -18,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [self updateView];
 }
 
 - (void)didReceiveMemoryWarning
@@ -25,5 +27,8 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+- (void)updateView
+{
+    self.softwareVersionLabel.text = [MFSystemInfo softwareVersion ];
+}
 @end

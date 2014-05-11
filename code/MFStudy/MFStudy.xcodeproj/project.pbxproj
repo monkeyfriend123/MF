@@ -22,6 +22,7 @@
 		4BB80230191F00F000662F2D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BB8020F191F00F000662F2D /* UIKit.framework */; };
 		4BB80238191F00F000662F2D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4BB80236191F00F000662F2D /* InfoPlist.strings */; };
 		4BB8023A191F00F000662F2D /* MFStudyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB80239191F00F000662F2D /* MFStudyTests.m */; };
+		4BB80246191F04A000662F2D /* MFSystemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB80245191F04A000662F2D /* MFSystemInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		4BB80235191F00F000662F2D /* MFStudyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MFStudyTests-Info.plist"; sourceTree = "<group>"; };
 		4BB80237191F00F000662F2D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4BB80239191F00F000662F2D /* MFStudyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFStudyTests.m; sourceTree = "<group>"; };
+		4BB80244191F04A000662F2D /* MFSystemInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFSystemInfo.h; sourceTree = "<group>"; };
+		4BB80245191F04A000662F2D /* MFSystemInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFSystemInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,7 @@
 		4BB80211191F00F000662F2D /* MFStudy */ = {
 			isa = PBXGroup;
 			children = (
+				4BB80243191F048700662F2D /* Tool */,
 				4BB8021A191F00F000662F2D /* MFAppDelegate.h */,
 				4BB8021B191F00F000662F2D /* MFAppDelegate.m */,
 				4BB8021D191F00F000662F2D /* Main.storyboard */,
@@ -155,6 +159,15 @@
 				4BB80236191F00F000662F2D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4BB80243191F048700662F2D /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				4BB80244191F04A000662F2D /* MFSystemInfo.h */,
+				4BB80245191F04A000662F2D /* MFSystemInfo.m */,
+			);
+			name = Tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BB80246191F04A000662F2D /* MFSystemInfo.m in Sources */,
 				4BB80222191F00F000662F2D /* MFListViewController.m in Sources */,
 				4BB80225191F00F000662F2D /* MFAboutViewController.m in Sources */,
 				4BB80218191F00F000662F2D /* main.m in Sources */,
