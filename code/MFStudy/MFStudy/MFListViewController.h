@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MFFirstViewController : UIViewController
+@interface MFListViewController : UIViewController
 
 @end

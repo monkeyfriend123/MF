@@ -14,8 +14,8 @@
 		4BB80218191F00F000662F2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB80217191F00F000662F2D /* main.m */; };
 		4BB8021C191F00F000662F2D /* MFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB8021B191F00F000662F2D /* MFAppDelegate.m */; };
 		4BB8021F191F00F000662F2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BB8021D191F00F000662F2D /* Main.storyboard */; };
-		4BB80222191F00F000662F2D /* MFFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB80221191F00F000662F2D /* MFFirstViewController.m */; };
-		4BB80225191F00F000662F2D /* MFSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB80224191F00F000662F2D /* MFSecondViewController.m */; };
+		4BB80222191F00F000662F2D /* MFListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB80221191F00F000662F2D /* MFListViewController.m */; };
+		4BB80225191F00F000662F2D /* MFAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB80224191F00F000662F2D /* MFAboutViewController.m */; };
 		4BB80227191F00F000662F2D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BB80226191F00F000662F2D /* Images.xcassets */; };
 		4BB8022E191F00F000662F2D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BB8022D191F00F000662F2D /* XCTest.framework */; };
 		4BB8022F191F00F000662F2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BB8020B191F00F000662F2D /* Foundation.framework */; };
@@ -46,10 +46,10 @@
 		4BB8021A191F00F000662F2D /* MFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFAppDelegate.h; sourceTree = "<group>"; };
 		4BB8021B191F00F000662F2D /* MFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFAppDelegate.m; sourceTree = "<group>"; };
 		4BB8021E191F00F000662F2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4BB80220191F00F000662F2D /* MFFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFFirstViewController.h; sourceTree = "<group>"; };
-		4BB80221191F00F000662F2D /* MFFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFFirstViewController.m; sourceTree = "<group>"; };
-		4BB80223191F00F000662F2D /* MFSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFSecondViewController.h; sourceTree = "<group>"; };
-		4BB80224191F00F000662F2D /* MFSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFSecondViewController.m; sourceTree = "<group>"; };
+		4BB80220191F00F000662F2D /* MFListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFListViewController.h; sourceTree = "<group>"; };
+		4BB80221191F00F000662F2D /* MFListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFListViewController.m; sourceTree = "<group>"; };
+		4BB80223191F00F000662F2D /* MFAboutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFAboutViewController.h; sourceTree = "<group>"; };
+		4BB80224191F00F000662F2D /* MFAboutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MFAboutViewController.m; sourceTree = "<group>"; };
 		4BB80226191F00F000662F2D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4BB8022C191F00F000662F2D /* MFStudyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MFStudyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BB8022D191F00F000662F2D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -118,10 +118,10 @@
 				4BB8021A191F00F000662F2D /* MFAppDelegate.h */,
 				4BB8021B191F00F000662F2D /* MFAppDelegate.m */,
 				4BB8021D191F00F000662F2D /* Main.storyboard */,
-				4BB80220191F00F000662F2D /* MFFirstViewController.h */,
-				4BB80221191F00F000662F2D /* MFFirstViewController.m */,
-				4BB80223191F00F000662F2D /* MFSecondViewController.h */,
-				4BB80224191F00F000662F2D /* MFSecondViewController.m */,
+				4BB80220191F00F000662F2D /* MFListViewController.h */,
+				4BB80221191F00F000662F2D /* MFListViewController.m */,
+				4BB80223191F00F000662F2D /* MFAboutViewController.h */,
+				4BB80224191F00F000662F2D /* MFAboutViewController.m */,
 				4BB80226191F00F000662F2D /* Images.xcassets */,
 				4BB80212191F00F000662F2D /* Supporting Files */,
 			);
@@ -255,8 +255,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BB80222191F00F000662F2D /* MFFirstViewController.m in Sources */,
-				4BB80225191F00F000662F2D /* MFSecondViewController.m in Sources */,
+				4BB80222191F00F000662F2D /* MFListViewController.m in Sources */,
+				4BB80225191F00F000662F2D /* MFAboutViewController.m in Sources */,
 				4BB80218191F00F000662F2D /* main.m in Sources */,
 				4BB8021C191F00F000662F2D /* MFAppDelegate.m in Sources */,
 			);

@@ -6,13 +6,13 @@
 //  Copyright (c) 2014年 monkeyfriendofchina. All rights reserved.
 //
 
-#import "MFFirstViewController.h"
+#import "MFListViewController.h"
 
-@interface MFFirstViewController ()
+@interface MFListViewController ()
 
 @end
 
-@implementation MFFirstViewController
+@implementation MFListViewController
 
 - (void)viewDidLoad
 {

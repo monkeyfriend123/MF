@@ -6,13 +6,13 @@
 //  Copyright (c) 2014年 monkeyfriendofchina. All rights reserved.
 //
 
-#import "MFSecondViewController.h"
+#import "MFAboutViewController.h"
 
-@interface MFSecondViewController ()
+@interface MFAboutViewController ()
 
 @end
 
-@implementation MFSecondViewController
+@implementation MFAboutViewController
 
 - (void)viewDidLoad
 {
