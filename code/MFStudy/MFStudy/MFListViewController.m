@@ -9,6 +9,7 @@
 #import "MFListViewController.h"
 #import "MFFMDBViewController.h"
 #import "MFJsonKitViewController.h"
+#import "MFAFNetworkViewController.h"
 @interface MFListViewController ()
 @property (nonatomic, weak) IBOutlet UITableView *appListTableView;
 @property (nonatomic, strong) NSMutableArray *sourceArray;
@@ -23,6 +24,7 @@
     _sourceArray = [[NSMutableArray alloc] initWithCapacity:0];
     [self.sourceArray addObject:@"FMDB"];
     [self.sourceArray addObject:@"JSONKit"];
+    [self.sourceArray addObject:@"AFNetwork"];
 }
 
 - (void)didReceiveMemoryWarning
@@ -51,6 +53,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
     switch (indexPath.row) {
         case 0:
         {
@@ -66,6 +69,13 @@
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
+        case 2 :
+        {
+            MFAFNetworkViewController *vc = [[MFAFNetworkViewController alloc] init];
+            vc.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+        break;
         default:
             break;
     }
