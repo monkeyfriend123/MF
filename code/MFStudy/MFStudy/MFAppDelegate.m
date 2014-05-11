@@ -7,12 +7,14 @@
 //
 
 #import "MFAppDelegate.h"
-
+#import "MFDatabaseManager.h"
 @implementation MFAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [[MFDatabaseManager sharedInstance] openDatabase];
+    
     return YES;
 }
 							

@@ -1,5 +1,5 @@
 //
-//  MFFirstViewController.h
+//  MFFMDBViewController.h
 //  MFStudy
 //
 //  Created by js on 14-5-11.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MFListViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+@interface MFFMDBViewController : UIViewController
 
 @end
