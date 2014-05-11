@@ -8,6 +8,7 @@
 
 #import "MFListViewController.h"
 #import "MFFMDBViewController.h"
+#import "MFJsonKitViewController.h"
 @interface MFListViewController ()
 @property (nonatomic, weak) IBOutlet UITableView *appListTableView;
 @property (nonatomic, strong) NSMutableArray *sourceArray;
@@ -21,6 +22,7 @@
 	// Do any additional setup after loading the view, typically from a nib.
     _sourceArray = [[NSMutableArray alloc] initWithCapacity:0];
     [self.sourceArray addObject:@"FMDB"];
+    [self.sourceArray addObject:@"JSONKit"];
 }
 
 - (void)didReceiveMemoryWarning
@@ -57,7 +59,13 @@
             [self.navigationController pushViewController:vc animated:YES];
         }
         break;
-        
+        case 1:
+        {
+            MFJsonKitViewController *vc = [[MFJsonKitViewController alloc] init];
+            vc.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
         default:
             break;
     }

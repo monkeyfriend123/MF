@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B14B3D0191F5A6B003C1F4E /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B14B3CF191F5A6B003C1F4E /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc -w"; }; };
+		4B14B3D4191F5B99003C1F4E /* MFJsonKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B14B3D2191F5B99003C1F4E /* MFJsonKitViewController.m */; };
+		4B14B3D5191F5B99003C1F4E /* MFJsonKitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B14B3D3191F5B99003C1F4E /* MFJsonKitViewController.xib */; };
+		4B14B3D8191F60BB003C1F4E /* MFEmployee.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B14B3D7191F60BB003C1F4E /* MFEmployee.m */; };
 		4BB8020C191F00F000662F2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BB8020B191F00F000662F2D /* Foundation.framework */; };
 		4BB8020E191F00F000662F2D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BB8020D191F00F000662F2D /* CoreGraphics.framework */; };
 		4BB80210191F00F000662F2D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BB8020F191F00F000662F2D /* UIKit.framework */; };
@@ -46,6 +50,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B14B3CE191F5A6B003C1F4E /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		4B14B3CF191F5A6B003C1F4E /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		4B14B3D1191F5B99003C1F4E /* MFJsonKitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFJsonKitViewController.h; sourceTree = "<group>"; };
+		4B14B3D2191F5B99003C1F4E /* MFJsonKitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFJsonKitViewController.m; sourceTree = "<group>"; };
+		4B14B3D3191F5B99003C1F4E /* MFJsonKitViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MFJsonKitViewController.xib; sourceTree = "<group>"; };
+		4B14B3D6191F60BB003C1F4E /* MFEmployee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFEmployee.h; sourceTree = "<group>"; };
+		4B14B3D7191F60BB003C1F4E /* MFEmployee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFEmployee.m; sourceTree = "<group>"; };
 		4BB80208191F00F000662F2D /* MFStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MFStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BB8020B191F00F000662F2D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4BB8020D191F00F000662F2D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -117,6 +128,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B14B3CD191F5A53003C1F4E /* JsonKit */ = {
+			isa = PBXGroup;
+			children = (
+				4B14B3CE191F5A6B003C1F4E /* JSONKit.h */,
+				4B14B3CF191F5A6B003C1F4E /* JSONKit.m */,
+			);
+			name = JsonKit;
+			sourceTree = "<group>";
+		};
 		4BB801FF191F00F000662F2D = {
 			isa = PBXGroup;
 			children = (
@@ -208,6 +228,8 @@
 		4BB80247191F2CF500662F2D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				4B14B3D6191F60BB003C1F4E /* MFEmployee.h */,
+				4B14B3D7191F60BB003C1F4E /* MFEmployee.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -228,6 +250,8 @@
 				4BB80224191F00F000662F2D /* MFAboutViewController.m */,
 				4BB80275191F3E6300662F2D /* MFFMDBViewController.h */,
 				4BB80276191F3E6300662F2D /* MFFMDBViewController.m */,
+				4B14B3D1191F5B99003C1F4E /* MFJsonKitViewController.h */,
+				4B14B3D2191F5B99003C1F4E /* MFJsonKitViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -235,6 +259,7 @@
 		4BB8024A191F2D2800662F2D /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				4B14B3D3191F5B99003C1F4E /* MFJsonKitViewController.xib */,
 				4BB80277191F3E6300662F2D /* MFFMDBViewController.xib */,
 				4BB8021D191F00F000662F2D /* Main.storyboard */,
 			);
@@ -244,6 +269,7 @@
 		4BB8024C191F2DCE00662F2D /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				4B14B3CD191F5A53003C1F4E /* JsonKit */,
 				4BB8025D191F357900662F2D /* FMDB */,
 			);
 			name = Vendor;
@@ -367,6 +393,7 @@
 				4BB80279191F3E6300662F2D /* MFFMDBViewController.xib in Resources */,
 				4BB80227191F00F000662F2D /* Images.xcassets in Resources */,
 				4BB80216191F00F000662F2D /* InfoPlist.strings in Resources */,
+				4B14B3D5191F5B99003C1F4E /* MFJsonKitViewController.xib in Resources */,
 				4BB8021F191F00F000662F2D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -391,13 +418,16 @@
 				4BB80225191F00F000662F2D /* MFAboutViewController.m in Sources */,
 				4BB8026B191F359B00662F2D /* FMDatabase+InMemoryOnDiskIO.m in Sources */,
 				4BB8025C191F2F9700662F2D /* MFDatabaseManager.m in Sources */,
+				4B14B3D4191F5B99003C1F4E /* MFJsonKitViewController.m in Sources */,
 				4BB8026D191F359B00662F2D /* FMDatabaseAdditions.m in Sources */,
 				4BB80270191F359B00662F2D /* FMResultSet.m in Sources */,
 				4BB80218191F00F000662F2D /* main.m in Sources */,
 				4BB8026E191F359B00662F2D /* FMDatabasePool.m in Sources */,
+				4B14B3D8191F60BB003C1F4E /* MFEmployee.m in Sources */,
 				4BB80278191F3E6300662F2D /* MFFMDBViewController.m in Sources */,
 				4BB8026F191F359B00662F2D /* FMDatabaseQueue.m in Sources */,
 				4BB8021C191F00F000662F2D /* MFAppDelegate.m in Sources */,
+				4B14B3D0191F5A6B003C1F4E /* JSONKit.m in Sources */,
 				4BB8026C191F359B00662F2D /* FMDatabase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -521,12 +551,15 @@
 		4BB8023E191F00F000662F2D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MFStudy/MFStudy-Prefix.pch";
 				INFOPLIST_FILE = "MFStudy/MFStudy-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -534,12 +567,15 @@
 		4BB8023F191F00F000662F2D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MFStudy/MFStudy-Prefix.pch";
 				INFOPLIST_FILE = "MFStudy/MFStudy-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -603,6 +639,7 @@
 				4BB8023F191F00F000662F2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4BB80240191F00F000662F2D /* Build configuration list for PBXNativeTarget "MFStudyTests" */ = {
 			isa = XCConfigurationList;
@@ -611,6 +648,7 @@
 				4BB80242191F00F000662F2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
