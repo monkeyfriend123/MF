@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>B7DA3FC1-4674-4BA4-ADE7-E3AE3E5DAC24</string>
+	<string>15F99C1E-D842-4520-AFCB-316BC511F0E2</string>
 	<key>IDESourceControlProjectName</key>
 	<string>MFStudy</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>67BA6F7C-DCD8-4088-B757-F3D047288FDC</key>
-		<string>https://github.com/monkeyfriend123/IOS-GitHubRep</string>
+		<key>90A2AB03-6CEE-448A-B96A-0E0A8B80A1FA</key>
+		<string>https://github.com/monkeyfriend123/MF</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>code/MFStudy/MFStudy.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>67BA6F7C-DCD8-4088-B757-F3D047288FDC</key>
+		<key>90A2AB03-6CEE-448A-B96A-0E0A8B80A1FA</key>
 		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/monkeyfriend123/IOS-GitHubRep</string>
+	<string>https://github.com/monkeyfriend123/MF</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>67BA6F7C-DCD8-4088-B757-F3D047288FDC</string>
+	<string>90A2AB03-6CEE-448A-B96A-0E0A8B80A1FA</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>67BA6F7C-DCD8-4088-B757-F3D047288FDC</string>
+			<string>90A2AB03-6CEE-448A-B96A-0E0A8B80A1FA</string>
 			<key>IDESourceControlWCCName</key>
-			<string>MFStudy</string>
+			<string>Git</string>
 		</dict>
 	</array>
 </dict>

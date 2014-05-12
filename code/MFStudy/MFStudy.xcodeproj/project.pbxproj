@@ -34,6 +34,7 @@
 		4B14B41C191F829F003C1F4E /* MFAFTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B14B41A191F829F003C1F4E /* MFAFTableCell.m */; };
 		4B14B41D191F829F003C1F4E /* MFAFTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B14B41B191F829F003C1F4E /* MFAFTableCell.xib */; };
 		4B14B420191F8754003C1F4E /* placeholder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4B14B41F191F8754003C1F4E /* placeholder.jpg */; };
+		4BA4A19E19207B5100C40EEA /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BA4A19D19207B5100C40EEA /* MBProgressHUD.m */; };
 		4BB8020C191F00F000662F2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BB8020B191F00F000662F2D /* Foundation.framework */; };
 		4BB8020E191F00F000662F2D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BB8020D191F00F000662F2D /* CoreGraphics.framework */; };
 		4BB80210191F00F000662F2D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BB8020F191F00F000662F2D /* UIKit.framework */; };
@@ -125,6 +126,8 @@
 		4B14B41A191F829F003C1F4E /* MFAFTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFAFTableCell.m; sourceTree = "<group>"; };
 		4B14B41B191F829F003C1F4E /* MFAFTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MFAFTableCell.xib; sourceTree = "<group>"; };
 		4B14B41F191F8754003C1F4E /* placeholder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placeholder.jpg; sourceTree = "<group>"; };
+		4BA4A19C19207B5100C40EEA /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		4BA4A19D19207B5100C40EEA /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		4BB80208191F00F000662F2D /* MFStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MFStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BB8020B191F00F000662F2D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4BB8020D191F00F000662F2D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -272,6 +275,15 @@
 			name = Png;
 			sourceTree = "<group>";
 		};
+		4BA4A19B19207B3100C40EEA /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				4BA4A19C19207B5100C40EEA /* MBProgressHUD.h */,
+				4BA4A19D19207B5100C40EEA /* MBProgressHUD.m */,
+			);
+			name = MBProgressHUD;
+			sourceTree = "<group>";
+		};
 		4BB801FF191F00F000662F2D = {
 			isa = PBXGroup;
 			children = (
@@ -413,6 +425,7 @@
 		4BB8024C191F2DCE00662F2D /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				4BA4A19B19207B3100C40EEA /* MBProgressHUD */,
 				4B14B3DC191F7DB8003C1F4E /* AFNetworking */,
 				4B14B3CD191F5A53003C1F4E /* JsonKit */,
 				4BB8025D191F357900662F2D /* FMDB */,
@@ -583,6 +596,7 @@
 				4B14B40B191F7DE5003C1F4E /* AFURLSessionManager.m in Sources */,
 				4BB80270191F359B00662F2D /* FMResultSet.m in Sources */,
 				4BB80218191F00F000662F2D /* main.m in Sources */,
+				4BA4A19E19207B5100C40EEA /* MBProgressHUD.m in Sources */,
 				4B14B408191F7DE5003C1F4E /* AFURLConnectionOperation.m in Sources */,
 				4B14B40A191F7DE5003C1F4E /* AFURLResponseSerialization.m in Sources */,
 				4BB8026E191F359B00662F2D /* FMDatabasePool.m in Sources */,

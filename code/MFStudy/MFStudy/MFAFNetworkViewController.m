@@ -9,6 +9,7 @@
 #import "MFAFNetworkViewController.h"
 
 #import "MFAFTableCell.h"
+#import "MBProgressHUD.h"
 @interface MFAFNetworkViewController ()<UITableViewDataSource>
 //图片地址
 @property (nonatomic, strong) NSMutableArray *imageUrlArray;
@@ -31,6 +32,8 @@
     // Do any additional setup after loading the view from its nib.
     self.title = @"AFNetwork";
     [self initImageUrlArray];
+    
+    [MBProgressHUD showHUDAddedTo:self.view animated:YES];
     
 }
 - (void)initImageUrlArray
